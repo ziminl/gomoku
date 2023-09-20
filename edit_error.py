@@ -20,9 +20,6 @@ def manage_wins(username):
     if request.method == 'POST':
         data = request.get_json()
 
-        if data is None or 'username' not in data:
-            return jsonify({'error': 'Invalid data format'}), 400
-
         cursor.execute('SELECT * FROM wins WHERE username = ?', (username,))
         existing_user = cursor.fetchone()
 

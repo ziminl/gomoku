@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Win Counts</title>
+</head>
+<body>
+    <h1>score board</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Username</th>
+                <th>Win Count</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for username, win_count in wins %}
+            <tr>
+                <td>{{ username }}</td>
+                <td>{{ win_count }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</body>
+</html>

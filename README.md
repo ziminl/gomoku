@@ -11,3 +11,7 @@ is for flask api
 > post_r_test.py
 
 for testing post req
+
+> login_reg.py
+
+for login and register (undone)

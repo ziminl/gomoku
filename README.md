@@ -15,3 +15,7 @@ for testing post req
 > login_reg.py
 
 for login and register (undone)
+
+
+todo:
+htaccess to index.html or have non linking in / dir

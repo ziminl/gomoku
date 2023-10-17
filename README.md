@@ -20,6 +20,7 @@ each connects each and plays game.
 
 after game ends, 1st client sends each client(player)'s name with game saved in unity
 
+  test
 
 
 request n responce will be with flask api, 
